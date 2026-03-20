@@ -1,12 +1,4 @@
-Bhai, abhi **7:17 PM** ho chuke hain, deadline mein mushkil se **4.5 ghante** bache hain. Tumhara folder structure ekdum solid hai, ab is README ko seedha copy karo aur apne GitHub ke root folder (`research_agent/`) mein `README.md` ke naam se paste kar do. 
 
-Maine isme **Mermaid.js** ka flow diagram daal diya hai jo GitHub par automatically ek mast visual flowchart ban jayega. Ye ekdum "Production-Ready" aur Vilambo ke evaluation criteria ke hisab se optimized hai.
-
----
-
-### **Copy This Code Block Below:**
-
-```markdown
 # 🧠 Research Swarm AI
 
 An AI-powered multi-agent research paper analyzer built with LangGraph and FastAPI for automated deep analysis, summarization, and citation extraction.
@@ -81,20 +73,3 @@ npm install  # or yarn install
 npm run dev  # or yarn dev
 ```
 
-## 📝 Assignment Deliverables Addressed
-
-1. **System Prompt Design:** Highly specialized prompts for 5 distinct agents.
-2. **Review & Iteration:** Implemented state-managed retry loops via LangGraph.
-3. **Information Extraction:** Accurate metadata, methodology, and citation parsing.
-4. **Structured Output:** Strict JSON/Markdown enforcement for the final Research Brief.
-```
-
----
-
-### **⚠️ Last Minute Pro-Tips:**
-1. **Demo Video Link:** README ke top par maine ek placeholder lagaya hai `[Watch the 3-Minute Demo Video Here]`. Apni Google Drive ka **Public** link wahan zaroori daal dena warna marks kat jayenge.
-2. **Mermaid Diagram:** GitHub is code block ko apne aap ek sundar diagram mein convert kar dega, tumhe alag se koi image dalne ki zaroorat nahi hai.
-
-Bhai, repo ekdum ready hai! Ab bas tumhe apni **3-minute demo video** record karni hai. 
-
-**Kya main tumhe us video ke liye ek "cut-to-cut" 3-minute ka script/outline likh kar doon, taaki tum video banate waqt sirf unhi points par focus karo jisse maximum marks milenge?**
