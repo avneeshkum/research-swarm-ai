@@ -1,0 +1,81 @@
+/* ═══════════════════════════════════════════════════════════════════
+   SwarmLab — App.css
+   App-level layout overrides & page transitions
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─── App Root ──────────────────────────────────────────────────────── */
+#app,
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  background: #07090f;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+}
+
+/* ─── Page Mount Transition ─────────────────────────────────────────── */
+.app-enter {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.app-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ─── Vite default overrides (kills white flash) ────────────────────── */
+:root {
+  color-scheme: dark;
+  background-color: #07090f;
+}
+
+a {
+  color: #2dd4bf;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #5eead4;
+}
+
+/* ─── Headings ──────────────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-weight: 700;
+  color: #e8f4f3;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+/* ─── Paragraphs ────────────────────────────────────────────────────── */
+p {
+  line-height: 1.7;
+  color: #c8d9e8;
+}
+
+/* ─── Code (outside markdown) ───────────────────────────────────────── */
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+  color: #2dd4bf;
+  background: rgba(45, 212, 191, 0.08);
+  border: 1px solid rgba(45, 212, 191, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ─── HR ────────────────────────────────────────────────────────────── */
+hr {
+  border: none;
+  border-top: 1px solid rgba(45, 212, 191, 0.08);
+  margin: 1.5em 0;
+}
+
+/* ─── Images ────────────────────────────────────────────────────────── */
+img, svg {
+  display: block;
+  max-width: 100%;
+}
